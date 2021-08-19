@@ -8,6 +8,7 @@ const BookSchema = new Schema(
     harga: { type: Number, required: true },
     stok: { type: Number, required: true },
   },
+
   { collection: "koleksiBuku" }
 );
 
